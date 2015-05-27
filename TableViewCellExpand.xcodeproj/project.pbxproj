@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		ABCA715C1B0BBB74002CF5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA715B1B0BBB74002CF5BE /* main.m */; };
 		ABCA715F1B0BBB74002CF5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA715E1B0BBB74002CF5BE /* AppDelegate.m */; };
-		ABCA71621B0BBB74002CF5BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA71611B0BBB74002CF5BE /* ViewController.m */; };
 		ABCA71651B0BBB74002CF5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71631B0BBB74002CF5BE /* Main.storyboard */; };
 		ABCA71671B0BBB74002CF5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71661B0BBB74002CF5BE /* Images.xcassets */; };
 		ABCA716A1B0BBB74002CF5BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71681B0BBB74002CF5BE /* LaunchScreen.xib */; };
 		ABCA71761B0BBB74002CF5BE /* TableViewCellExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA71751B0BBB74002CF5BE /* TableViewCellExpandTests.m */; };
+		ABCA71811B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA71801B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.m */; };
+		ABCA71841B0BBC3E002CF5BE /* WNWeightListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA71831B0BBC3E002CF5BE /* WNWeightListViewCell.m */; };
+		ABCA71891B0BBC5A002CF5BE /* btn_delattach.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71851B0BBC5A002CF5BE /* btn_delattach.png */; };
+		ABCA718A1B0BBC5A002CF5BE /* btn_delrecords.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71861B0BBC5A002CF5BE /* btn_delrecords.png */; };
+		ABCA718B1B0BBC5A002CF5BE /* btn_update.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71871B0BBC5A002CF5BE /* btn_update.png */; };
+		ABCA718C1B0BBC5A002CF5BE /* bg_popupwitharrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCA71881B0BBC5A002CF5BE /* bg_popupwitharrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,20 @@
 		ABCA715B1B0BBB74002CF5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABCA715D1B0BBB74002CF5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABCA715E1B0BBB74002CF5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABCA71601B0BBB74002CF5BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABCA71611B0BBB74002CF5BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABCA71641B0BBB74002CF5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABCA71661B0BBB74002CF5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABCA71691B0BBB74002CF5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABCA716F1B0BBB74002CF5BE /* TableViewCellExpandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellExpandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA71741B0BBB74002CF5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCA71751B0BBB74002CF5BE /* TableViewCellExpandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellExpandTests.m; sourceTree = "<group>"; };
+		ABCA717F1B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMedicineUpdateTableViewController.h; sourceTree = "<group>"; };
+		ABCA71801B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMedicineUpdateTableViewController.m; sourceTree = "<group>"; };
+		ABCA71821B0BBC3E002CF5BE /* WNWeightListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNWeightListViewCell.h; sourceTree = "<group>"; };
+		ABCA71831B0BBC3E002CF5BE /* WNWeightListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNWeightListViewCell.m; sourceTree = "<group>"; };
+		ABCA71851B0BBC5A002CF5BE /* btn_delattach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_delattach.png; sourceTree = "<group>"; };
+		ABCA71861B0BBC5A002CF5BE /* btn_delrecords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_delrecords.png; sourceTree = "<group>"; };
+		ABCA71871B0BBC5A002CF5BE /* btn_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_update.png; sourceTree = "<group>"; };
+		ABCA71881B0BBC5A002CF5BE /* bg_popupwitharrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_popupwitharrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,16 @@
 		ABCA71581B0BBB74002CF5BE /* TableViewCellExpand */ = {
 			isa = PBXGroup;
 			children = (
+				ABCA71851B0BBC5A002CF5BE /* btn_delattach.png */,
+				ABCA71861B0BBC5A002CF5BE /* btn_delrecords.png */,
+				ABCA71871B0BBC5A002CF5BE /* btn_update.png */,
+				ABCA71881B0BBC5A002CF5BE /* bg_popupwitharrow.png */,
+				ABCA71821B0BBC3E002CF5BE /* WNWeightListViewCell.h */,
+				ABCA71831B0BBC3E002CF5BE /* WNWeightListViewCell.m */,
+				ABCA717F1B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.h */,
+				ABCA71801B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.m */,
 				ABCA715D1B0BBB74002CF5BE /* AppDelegate.h */,
 				ABCA715E1B0BBB74002CF5BE /* AppDelegate.m */,
-				ABCA71601B0BBB74002CF5BE /* ViewController.h */,
-				ABCA71611B0BBB74002CF5BE /* ViewController.m */,
 				ABCA71631B0BBB74002CF5BE /* Main.storyboard */,
 				ABCA71661B0BBB74002CF5BE /* Images.xcassets */,
 				ABCA71681B0BBB74002CF5BE /* LaunchScreen.xib */,
@@ -199,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCA718A1B0BBC5A002CF5BE /* btn_delrecords.png in Resources */,
 				ABCA71651B0BBB74002CF5BE /* Main.storyboard in Resources */,
+				ABCA71891B0BBC5A002CF5BE /* btn_delattach.png in Resources */,
+				ABCA718B1B0BBC5A002CF5BE /* btn_update.png in Resources */,
 				ABCA716A1B0BBB74002CF5BE /* LaunchScreen.xib in Resources */,
 				ABCA71671B0BBB74002CF5BE /* Images.xcassets in Resources */,
+				ABCA718C1B0BBC5A002CF5BE /* bg_popupwitharrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCA71621B0BBB74002CF5BE /* ViewController.m in Sources */,
 				ABCA715F1B0BBB74002CF5BE /* AppDelegate.m in Sources */,
+				ABCA71841B0BBC3E002CF5BE /* WNWeightListViewCell.m in Sources */,
 				ABCA715C1B0BBB74002CF5BE /* main.m in Sources */,
+				ABCA71811B0BBC21002CF5BE /* HTMedicineUpdateTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewCellExpand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewCellExpand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +442,7 @@
 				ABCA717B1B0BBB74002CF5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABCA717C1B0BBB74002CF5BE /* Build configuration list for PBXNativeTarget "TableViewCellExpandTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				ABCA717E1B0BBB74002CF5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
